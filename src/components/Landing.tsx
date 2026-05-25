@@ -34,16 +34,34 @@ const Landing = ({ children }: PropsWithChildren) => {
             <p>
               AI & ServiceNow Enthusiast | DSA Learner
             </p>
-          </div>
-<div className="hero-socials">
-  <a href="https://github.com/yasaswinivemuru3" target="_blank">
-    GitHub
-  </a>
 
-  <a href="https://www.linkedin.com/in/yasaswini-vemuru-728591293/" target="_blank">
-    LinkedIn
-  </a>
-</div>
+            {/* Resume Button */}
+            <a href="/resume.pdf" download className="resume-btn">
+              Download Resume
+            </a>
+
+            {/* Social Links */}
+            <div className="hero-socials">
+
+              <a
+                href="https://github.com/yasaswinivemuru3"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/yasaswini-vemuru-728591293/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                LinkedIn
+              </a>
+
+            </div>
+          </div>
+
         </div>
 
         {children}
