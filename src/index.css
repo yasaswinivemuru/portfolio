@@ -330,5 +330,51 @@ svg {
     transform: none !important;
   }
 }
+@media (max-width: 768px) {
+  .work-section {
+    height: auto !important;
+    min-height: auto !important;
+    overflow: visible !important;
+    padding: 80px 20px !important;
+  }
+
+  .work-container,
+  .works-container,
+  .project-container,
+  .projects-container {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 28px !important;
+    width: 100% !important;
+    height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+    transform: none !important;
+  }
+
+  .work-card,
+  .project-card,
+  .work-item,
+  .project-item {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    min-height: auto !important;
+    max-height: none !important;
+    position: relative !important;
+    transform: none !important;
+    opacity: 1 !important;
+    display: block !important;
+  }
+
+  .work-card img,
+  .project-card img,
+  .work-item img,
+  .project-item img {
+    width: 100% !important;
+    height: auto !important;
+    object-fit: cover !important;
+  }
+}
 }
 }
