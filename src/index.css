@@ -120,4 +120,80 @@ body {
   .techstack h2 {
     font-size: 40px;
   }
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img,
+video,
+canvas,
+svg {
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .section-container {
+    width: 100%;
+    padding: 60px 18px;
+  }
+
+  h1 {
+    font-size: 42px !important;
+    line-height: 1.05 !important;
+  }
+
+  h2 {
+    font-size: 32px !important;
+  }
+
+  p {
+    font-size: 15px !important;
+    line-height: 1.6;
+  }
+
+  .landing-container,
+  .about-container,
+  .skills-container,
+  .projects-container,
+  .cert-grid,
+  .contact-container {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    gap: 24px !important;
+  }
+
+  .landing-intro,
+  .landing-info,
+  .about-content,
+  .about-img,
+  .project-card,
+  .cert-card {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .header {
+    padding: 18px !important;
+  }
+
+  .header ul {
+    display: none !important;
+  }
+
+  .cert-grid,
+  .project-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
 }
