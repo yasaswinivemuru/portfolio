@@ -256,5 +256,42 @@ svg {
     overflow: hidden !important;
   }
 }
+@media (max-width: 768px) {
+  .work-section,
+  .work-container,
+  .project-section,
+  .projects-container {
+    width: 100% !important;
+    max-width: 100vw !important;
+    overflow-x: hidden !important;
+    padding: 60px 18px !important;
+  }
+
+  .work-card,
+  .project-card,
+  .work-item,
+  .project-item {
+    width: 100% !important;
+    max-width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .work-card img,
+  .project-card img,
+  .work-image,
+  .project-image {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    object-fit: cover !important;
+  }
+
+  .work-card *,
+  .project-card * {
+    max-width: 100% !important;
+    word-break: break-word !important;
+  }
+}
 }
 }
