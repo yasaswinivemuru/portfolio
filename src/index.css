@@ -233,5 +233,28 @@ svg {
     font-size: 15px !important;
   }
 }
+@media (max-width: 768px) {
+  canvas,
+  .model,
+  .character,
+  .character-model,
+  .three-model {
+    display: none !important;
+  }
+
+  .landing-container,
+  .about-container,
+  .work-container,
+  .contact-container {
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 40px 20px !important;
+  }
+
+  section {
+    min-height: auto !important;
+    overflow: hidden !important;
+  }
+}
 }
 }
