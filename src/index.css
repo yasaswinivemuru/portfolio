@@ -293,5 +293,42 @@ svg {
     word-break: break-word !important;
   }
 }
+@media (max-width: 768px) {
+  .work-section,
+  .works-section,
+  .project-section {
+    height: auto !important;
+    min-height: auto !important;
+    overflow: visible !important;
+  }
+
+  .work-container,
+  .works-container,
+  .project-container,
+  .projects-container,
+  .work-grid,
+  .project-grid {
+    display: flex !important;
+    flex-direction: column !important;
+    height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+    gap: 28px !important;
+  }
+
+  .work-card,
+  .project-card,
+  .work-item,
+  .project-item {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    height: auto !important;
+    min-height: auto !important;
+    max-height: none !important;
+    position: relative !important;
+    transform: none !important;
+  }
+}
 }
 }
